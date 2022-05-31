@@ -1,0 +1,62 @@
+/* input[type='radio']:checked+label:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #9a1c46 !important;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    } */
+    /* .state.p-primary label:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #9a1c46 !important;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    } */
+
+    /* .pretty.p-default.p-bigger.p-fill {
+        display: inline-block;
+        position: relative;
+        padding: 0 6px;
+        margin: 10px 0 0;
+      }
+      
+      .radio-item input[type='radio'] {
+        display: none;
+      }
+      
+      .radio-item label {
+        color: #666;
+        font-weight: normal;
+      } */
+      
+       /* .state.p-primary label:before {
+        background-color: transparent!important;
+      } */
+      
+      /* .state.p-primary label:after {
+        background-color: #9a1c46!important;
+      } */
+
+      .pretty input:checked~.state.p-primary label:after,.pretty.p-toggle .state.p-primary label:after {
+          background-color:#9a1c46!important
+        }
+
+    .pretty .state label:before {
+        border-color:#090909
+    }
+
+    .pretty.p-default input:checked~.state label:after {
+        border-color:#090909
+    }

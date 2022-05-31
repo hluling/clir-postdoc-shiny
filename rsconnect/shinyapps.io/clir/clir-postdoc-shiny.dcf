@@ -1,0 +1,11 @@
+name: clir-postdoc-shiny
+title:
+username:
+account: clir
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6404615
+bundleId: 5964457
+url: https://clir.shinyapps.io/clir-postdoc-shiny/
+when: 1654014035.8366
+lastSyncTime: 1654014035.8366
