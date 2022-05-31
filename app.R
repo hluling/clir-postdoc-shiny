@@ -17,6 +17,7 @@ library(shinyBS)
 #options(gargle_oauth_cache = ".secrets")
 #drive_auth()
 #list.files(".secrets/")
+
 # Step 2: Keep this in script
 gs4_auth(cache = ".secrets", email = TRUE, use_oob = TRUE)
 
